@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "zRgck14t1G/5DFMMPRN9rQwMy/hAWTf64MLB9apTP1qj7B1psVZZAjodPhPR4XBfr4LaEwcnYjHXi5vL6xZfTA==",
+  "dgSpecHash": "wbN7/2e8wuMiHpqLeOYa+vUWhEwbjAKL2IH/LL741VwW27s8C7EyZirV1MSNXe8u8f+okUnl9KqAEIvEHvpccA==",
   "success": true,
   "projectFilePath": "E:\\HocTap\\Nam4\\CNWeb\\CleanWebAPI\\WebAPI\\ApplicationCore\\ApplicationCore.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\hetyt\\.nuget\\packages\\microsoft.bcl.timeprovider\\8.0.1\\microsoft.bcl.timeprovider.8.0.1.nupkg.sha512",
+    "C:\\Users\\hetyt\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\hetyt\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\hetyt\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.1.2\\microsoft.identitymodel.abstractions.8.1.2.nupkg.sha512",
+    "C:\\Users\\hetyt\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.1.2\\microsoft.identitymodel.jsonwebtokens.8.1.2.nupkg.sha512",
+    "C:\\Users\\hetyt\\.nuget\\packages\\microsoft.identitymodel.logging\\8.1.2\\microsoft.identitymodel.logging.8.1.2.nupkg.sha512",
+    "C:\\Users\\hetyt\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.1.2\\microsoft.identitymodel.tokens.8.1.2.nupkg.sha512",
+    "C:\\Users\\hetyt\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.1.2\\system.identitymodel.tokens.jwt.8.1.2.nupkg.sha512"
+  ],
   "logs": []
 }
