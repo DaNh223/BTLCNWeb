@@ -26,7 +26,6 @@ namespace Infrastructure.Repositories
 					MaTk = t.MaTk,
 					Email = t.Email,
 					Password = t.Password,
-
 				}).ToListAsync();
 		}
 
@@ -83,6 +82,10 @@ namespace Infrastructure.Repositories
 			else {
 				throw new Exception("Tài khoản không tồn tại");
 			}
+		}
+
+		public async Task<TaiKhoan?> GetTaiKhoanByEmailAsync(string email) {
+			return await _context.TaiKhoans.FirstOrDefaultAsync(t => t.Email == email);
 		}
 	}
 }

@@ -14,5 +14,7 @@ namespace ApplicationCore.Interfaces.Repositories
 		Task AddAsync(TaiKhoan taiKhoan);
 		Task UpdateAsync(TaiKhoan taiKhoan);
 		Task DeleteAsync(int id);
+
+		Task<TaiKhoan> GetTaiKhoanByEmailAsync(string email);
 	}
 }

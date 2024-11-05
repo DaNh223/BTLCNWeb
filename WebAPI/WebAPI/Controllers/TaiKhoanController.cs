@@ -2,16 +2,21 @@
 using ApplicationCore.Entities;
 using ApplicationCore.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
+using ApplicationCore.DTOs;
 
 [ApiController]
 [Route("api/[controller]")]
 public class TaiKhoanController : ControllerBase
 {
 	private readonly TaiKhoanService _taiKhoanService;
+	private readonly AuthService _authService;
 
-	public TaiKhoanController(TaiKhoanService taiKhoanService)
+
+	public TaiKhoanController(TaiKhoanService taiKhoanService, AuthService authService)
 	{
 		_taiKhoanService = taiKhoanService;
+		_authService = authService;
 	}
 
 	[HttpGet]
@@ -49,13 +54,15 @@ public class TaiKhoanController : ControllerBase
 		return Ok(TaiKhoan);
 	}
 
+
+	//[Authorize(Roles = "Admin")]
 	[HttpPost("create")]
-	public async Task<IActionResult> Create(TaiKhoan taiKhoan)
+	public async Task<IActionResult> Create(RegisterDTO taiKhoan)
 	{
 		if (taiKhoan == null)
 			return BadRequest();
-		await _taiKhoanService.AddTaiKhoan(taiKhoan);
-		return CreatedAtAction(nameof(GetById), new { id = taiKhoan.MaTk }, taiKhoan);
+		await _authService.RegisterAsync(taiKhoan);
+		return Ok(taiKhoan);
 	}
 
 	[HttpPost("update")]
@@ -87,4 +94,21 @@ public class TaiKhoanController : ControllerBase
 			return BadRequest("Có lỗi xảy ra khi xóa tài khoản: " + ex.Message);
 		}
 	}
+
+	[HttpPost("login")]
+	public async Task<IActionResult> Login([FromBody] LoginDTO taiKhoan)
+	{
+		var result = await _authService.LoginAsync(taiKhoan);
+
+		if (!(bool)result.Success)
+		{
+			return Unauthorized(new { message = result.Message });
+		}
+		return Ok(new { token = result.Token, message = result.Message });
+	}
+
+
+
+
+
 }
