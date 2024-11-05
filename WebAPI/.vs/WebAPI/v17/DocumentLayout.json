@@ -1,7 +1,40 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\HocTap\\Nam4\\CNWeb\\CleanWebAPI\\WebAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7228B7A5-F6CC-4B59-B14E-10D1D6A2DB1D}|WebAPI\\WebAPI.csproj|e:\\hoctap\\nam4\\cnweb\\cleanwebapi\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7228B7A5-F6CC-4B59-B14E-10D1D6A2DB1D}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7228B7A5-F6CC-4B59-B14E-10D1D6A2DB1D}|WebAPI\\WebAPI.csproj|e:\\hoctap\\nam4\\cnweb\\cleanwebapi\\webapi\\webapi\\controllers\\taikhoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7228B7A5-F6CC-4B59-B14E-10D1D6A2DB1D}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\taikhoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6060A7D8-3268-46ED-8B92-CC3E03539919}|ApplicationCore\\ApplicationCore.csproj|e:\\hoctap\\nam4\\cnweb\\cleanwebapi\\webapi\\applicationcore\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6060A7D8-3268-46ED-8B92-CC3E03539919}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6060A7D8-3268-46ED-8B92-CC3E03539919}|ApplicationCore\\ApplicationCore.csproj|e:\\hoctap\\nam4\\cnweb\\cleanwebapi\\webapi\\applicationcore\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6060A7D8-3268-46ED-8B92-CC3E03539919}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6060A7D8-3268-46ED-8B92-CC3E03539919}|ApplicationCore\\ApplicationCore.csproj|e:\\hoctap\\nam4\\cnweb\\cleanwebapi\\webapi\\applicationcore\\dtos\\loginresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6060A7D8-3268-46ED-8B92-CC3E03539919}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\dtos\\loginresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6060A7D8-3268-46ED-8B92-CC3E03539919}|ApplicationCore\\ApplicationCore.csproj|e:\\hoctap\\nam4\\cnweb\\cleanwebapi\\webapi\\applicationcore\\services\\taikhoanservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6060A7D8-3268-46ED-8B92-CC3E03539919}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\services\\taikhoanservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7228B7A5-F6CC-4B59-B14E-10D1D6A2DB1D}|WebAPI\\WebAPI.csproj|e:\\hoctap\\nam4\\cnweb\\cleanwebapi\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7228B7A5-F6CC-4B59-B14E-10D1D6A2DB1D}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6060A7D8-3268-46ED-8B92-CC3E03539919}|ApplicationCore\\ApplicationCore.csproj|e:\\hoctap\\nam4\\cnweb\\cleanwebapi\\webapi\\applicationcore\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6060A7D8-3268-46ED-8B92-CC3E03539919}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,6 +71,109 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "E:\\HocTap\\Nam4\\CNWeb\\CleanWebAPI\\WebAPI\\ApplicationCore\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\DTOs\\LoginDTO.cs",
+              "ToolTip": "E:\\HocTap\\Nam4\\CNWeb\\CleanWebAPI\\WebAPI\\ApplicationCore\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "ApplicationCore\\DTOs\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T08:17:31.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginResult.cs",
+              "DocumentMoniker": "E:\\HocTap\\Nam4\\CNWeb\\CleanWebAPI\\WebAPI\\ApplicationCore\\DTOs\\LoginResult.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\DTOs\\LoginResult.cs",
+              "ToolTip": "E:\\HocTap\\Nam4\\CNWeb\\CleanWebAPI\\WebAPI\\ApplicationCore\\DTOs\\LoginResult.cs",
+              "RelativeToolTip": "ApplicationCore\\DTOs\\LoginResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T08:17:09.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\HocTap\\Nam4\\CNWeb\\CleanWebAPI\\WebAPI\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "E:\\HocTap\\Nam4\\CNWeb\\CleanWebAPI\\WebAPI\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-02T06:57:33.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\HocTap\\Nam4\\CNWeb\\CleanWebAPI\\WebAPI\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "E:\\HocTap\\Nam4\\CNWeb\\CleanWebAPI\\WebAPI\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T06:52:38.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "E:\\HocTap\\Nam4\\CNWeb\\CleanWebAPI\\WebAPI\\ApplicationCore\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "E:\\HocTap\\Nam4\\CNWeb\\CleanWebAPI\\WebAPI\\ApplicationCore\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "ApplicationCore\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T06:01:28.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaiKhoanController.cs",
+              "DocumentMoniker": "E:\\HocTap\\Nam4\\CNWeb\\CleanWebAPI\\WebAPI\\WebAPI\\Controllers\\TaiKhoanController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\TaiKhoanController.cs",
+              "ToolTip": "E:\\HocTap\\Nam4\\CNWeb\\CleanWebAPI\\WebAPI\\WebAPI\\Controllers\\TaiKhoanController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\TaiKhoanController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T06:00:36.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaiKhoanServices.cs",
+              "DocumentMoniker": "E:\\HocTap\\Nam4\\CNWeb\\CleanWebAPI\\WebAPI\\ApplicationCore\\Services\\TaiKhoanServices.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Services\\TaiKhoanServices.cs",
+              "ToolTip": "E:\\HocTap\\Nam4\\CNWeb\\CleanWebAPI\\WebAPI\\ApplicationCore\\Services\\TaiKhoanServices.cs",
+              "RelativeToolTip": "ApplicationCore\\Services\\TaiKhoanServices.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwB0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T06:00:24.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthServices.cs",
+              "DocumentMoniker": "E:\\HocTap\\Nam4\\CNWeb\\CleanWebAPI\\WebAPI\\ApplicationCore\\Services\\AuthServices.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Services\\AuthServices.cs",
+              "ToolTip": "E:\\HocTap\\Nam4\\CNWeb\\CleanWebAPI\\WebAPI\\ApplicationCore\\Services\\AuthServices.cs",
+              "RelativeToolTip": "ApplicationCore\\Services\\AuthServices.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAuwGIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T05:52:47.675Z",
+              "EditorCaption": ""
             }
           ]
         },

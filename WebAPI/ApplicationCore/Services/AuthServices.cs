@@ -93,24 +93,21 @@ namespace ApplicationCore.Services
 
 		private string GenerateJwtToken(NguoiDung nguoiDung)
 		{
-			var claims = new[]
-			{
-		new Claim(JwtRegisteredClaimNames.Sub, nguoiDung.MaNd.ToString()),
-		new Claim(ClaimTypes.Role, nguoiDung.MaLoaiNavigation?.TenLoai ?? "Khach") // Thêm quyền hạn vào claims
-    };
+				var claims = new[]
+				{	
+					new Claim(JwtRegisteredClaimNames.Sub, nguoiDung.MaNd.ToString()),
+					new Claim(ClaimTypes.Role, nguoiDung.MaLoaiNavigation?.TenLoai ?? "Khach") // Thêm quyền hạn vào claims
+				};
 
-			var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JwtSettings:Secret"]));
-			var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+				var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JwtSettings:Secret"]));
+				var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
-			var token = new JwtSecurityToken(
-				claims: claims,
-				expires: DateTime.Now.AddMinutes(30),
-				signingCredentials: creds);
+				var token = new JwtSecurityToken(
+					claims: claims,
+					expires: DateTime.Now.AddMinutes(30),
+					signingCredentials: creds);
 
-			return new JwtSecurityTokenHandler().WriteToken(token);
+				return new JwtSecurityTokenHandler().WriteToken(token);
 		}
-
-
-
 	}
 }

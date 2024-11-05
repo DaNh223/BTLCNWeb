@@ -55,14 +55,14 @@ public class TaiKhoanController : ControllerBase
 	}
 
 
-	[Authorize(Roles = "Admin")]
+	//[Authorize(Roles = "Admin")]
 	[HttpPost("create")]
-	public async Task<IActionResult> Create(TaiKhoan taiKhoan)
+	public async Task<IActionResult> Create(RegisterDTO taiKhoan)
 	{
 		if (taiKhoan == null)
 			return BadRequest();
-		await _taiKhoanService.AddTaiKhoan(taiKhoan);
-		return CreatedAtAction(nameof(GetById), new { id = taiKhoan.MaTk }, taiKhoan);
+		await _authService.RegisterAsync(taiKhoan);
+		return Ok(taiKhoan);
 	}
 
 	[HttpPost("update")]
@@ -104,7 +104,6 @@ public class TaiKhoanController : ControllerBase
 		{
 			return Unauthorized(new { message = result.Message });
 		}
-
 		return Ok(new { token = result.Token, message = result.Message });
 	}
 
